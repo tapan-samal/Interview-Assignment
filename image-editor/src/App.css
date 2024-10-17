@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    width: 300px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    margin: 10px;
+  }
+  
+  #canvas {
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  
