@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  padding: 20px;
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+
+    .delete{
+      margin-left: 22px;
+    }
+  }
+}
