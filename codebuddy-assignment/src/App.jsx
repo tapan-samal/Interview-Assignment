@@ -42,7 +42,7 @@ const App = () => {
             <div className="grid-item" key={data.id}>
               {data.name}
               <button
-                className="delete"
+                className="delete-btn"
                 onClick={() => handleDeleteByID(data.id)}
               >
                 delete
